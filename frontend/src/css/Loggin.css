@@ -1,0 +1,102 @@
+body{  
+    margin: 0;  
+    height: 100%;  
+    width: 100%; 
+    background-image: url(https://img.freepik.com/foto-gratis/hermoso-arco-iris-naturaleza_23-2151498214.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    position: relative;
+ }
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+      width: 970px;
+  }
+}
+
+.container-principal{
+    display: flex;
+    justify-content: center;
+    padding: 2rem; 
+}
+
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.panel-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.cold-md-4{
+  position: center;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.panel-heading {
+  padding: 2px 10px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.button-login{
+  display: flex;
+  margin-left: 2rem;
+}
+
+
+.login-boton{
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33rem;
+  border-radius: 6px;
+  color: #020202;
+  background-color: #f8bf19;
+  border-color: #4cae4c;
+  margin-bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+footer{
+  color: #fff;
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
